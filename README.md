@@ -9,7 +9,7 @@ A C++ header-only library for executing and capturing output of system shell com
 int main() {
   CommandResult result = Command::exec("ls -a");
   std::cout << "status: " << result.exitstatus << '\n'
-            << "coutput: " << result.output << '\n';
+            << "output: " << result.output << '\n';
 }
 ```
 
